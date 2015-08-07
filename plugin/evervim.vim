@@ -89,7 +89,7 @@ endfunction
 
 function! s:setup() " {{{
     try
-        python import markdown
+        python3 import markdown
     catch
         echoerr ' *** import markdown error !!!!! you must markdown library. see :help evervim. *** '
         finish
