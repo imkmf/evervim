@@ -5,7 +5,7 @@
 " License: MIT
 "
 "scriptencoding utf-8
-if !has('python')
+if !has('python') && !has('python3')
     " TODO more suitable message.
     echo "Need python. evervim finished."
     finish
